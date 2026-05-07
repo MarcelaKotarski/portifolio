@@ -138,10 +138,10 @@ strong{
 
 }
 .img-perfil{
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
-.second-section, .fourth-section{
+.second-section{
     background-color: var(--color5);
     display: flex;
     flex-direction: column;
@@ -193,6 +193,10 @@ strong{
     color: var(--color5);
 }
 
+.third-section> p{
+    text-align: justify;
+}
+
 .third-section> div img{
     width: 500px;
     border-radius: 5px;
@@ -208,6 +212,45 @@ strong{
     text-align: center;
 }
 
+
 .fourth-section{
-    
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
+
+
+.fourth-section> div{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: var(--color3);
+    transition: .4s;
+    cursor: default;
+}
+
+footer{
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer> div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer> h2{
+    color: var(--color5);
+    text-align: center;
+}
+
